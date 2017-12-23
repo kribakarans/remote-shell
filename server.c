@@ -1,7 +1,6 @@
 #define JUST_FOR_FUN
 
 /*
-	Free: argv allocated in decode_packet char** 
 
 	TODO:
 		Terminate thread task when Ctrl+C raise in client side
@@ -9,6 +8,10 @@
 
 	Fixed:
 		Setenv failed for OLDPWD: Need a logic to add new environmental variable in set_thread_env()
+
+	Added
+		Free: argv allocated in decode_packet char** in execute_process & exec_builtins
+
 */
 
 #define ENABLE_DEBUG
