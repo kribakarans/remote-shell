@@ -3,6 +3,7 @@
 /*
 
 	TODO:
+		Implement Text editor
 		Terminate thread task when Ctrl+C raise in client side
 		Handle Path-resolution for non-builtin execs
 
