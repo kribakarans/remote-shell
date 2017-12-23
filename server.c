@@ -1,4 +1,5 @@
 #define JUST_FOR_FUN
+
 /*
 	Free: argv allocated in decode_packet char** 
 
