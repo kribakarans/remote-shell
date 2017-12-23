@@ -3,10 +3,7 @@
 
 /*
 	TODO:
-		Handle cd in server
-		Need to handle stdout stderr
 		inc TAB in readline
-		Add Stat in server
 
 	BUG:
 	>>> When server terminated, SIGPIPE was detected only second subsequent command, first was return empty output
@@ -27,7 +24,9 @@
 	Added:
 	>>> validate user command in client side itself <<< Implementated buitin functions.
 	>>> Handle CD in client 
-
+	>>> Handle CD in server
+	>>>	Need to handle stdout stderr
+	>>> Add Stat in server
 */
 
 //#define ENABLE_DEBUG
