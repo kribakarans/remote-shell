@@ -61,7 +61,7 @@
 #include <readline/history.h>
 
 #define LOCAL_MACHINE
-#define PORT 2020
+#define PORT 5051
 
 
 #define CLI_DELIM ":"
