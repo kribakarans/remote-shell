@@ -146,7 +146,7 @@ typedef struct {
 char **decode_packet(char *args);
 builtins_t *is_builtin_function(char *name);
 
-inline int get_argc(char **argv);
+int get_argc(char **argv);
 char *strcpy_w(char *dest, char *src);
 int set_thread_env(char ***environ, const char *name, char *value);
 char *get_thread_env(char **environ, const char *name);
