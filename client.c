@@ -100,7 +100,7 @@ enum flags {
 
 int sockfd = -1;
 
-inline char *stripwhite ( char *string );
+char *stripwhite ( char *string );
 
 /* Send/Receive the data to/from server */
 int transceiver(size_t dataout_size, char *dataout, char *datain)
