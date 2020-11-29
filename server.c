@@ -1760,7 +1760,7 @@ int main(int argc, char *argv[])
 			break;
 		}
 		#else
-		strcpy(s_port, "2020");
+		strcpy(s_port, "5051");
 		#endif
 
 		printf("Service started at [%s] port...\n", s_port);
